@@ -2,6 +2,7 @@
   "name": "sauce-lab",
   "version": "1.0.0",
   "private": true,
+  "packageManager": "yarn@1.22.22",
   "description": "Playwright UI tests for SauceDemo",
   "scripts": {
     "test": "playwright test",

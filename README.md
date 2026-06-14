@@ -55,22 +55,23 @@ Projetos configurados:
 
 ## Como rodar
 
-Pre-requisitos: Node.js 18+ e npm.
+Pre-requisitos: Node.js 18+ e Yarn.
 
 Instalacao:
 
 ```bash
-npm install
+corepack enable
+yarn install
 npx playwright install
 ```
 
 Execucao:
 
 ```bash
-npm test
-npm run test:ui
-npm run test:headed
-npm run report
+yarn test
+yarn test:ui
+yarn test:headed
+yarn report
 ```
 
 ## Boas praticas aplicadas
